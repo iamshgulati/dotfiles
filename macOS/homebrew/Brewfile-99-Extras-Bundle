@@ -1,0 +1,202 @@
+# ------------------------------------------------------------------------------
+# Taps
+# ------------------------------------------------------------------------------
+tap 'homebrew/cask-fonts'
+tap 'mongodb/brew'
+
+# ------------------------------------------------------------------------------
+# Fonts
+# ------------------------------------------------------------------------------
+cask 'font-fira-code-nerd-font'
+cask 'font-jetbrains-mono-nerd-font'
+
+# ------------------------------------------------------------------------------
+# Mac Apps
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Productivity
+# ------------------------------------------------------------------------------
+cask 'microsoft-edge'
+cask 'authy'
+cask 'bitwarden'
+cask 'notion'
+cask 'alfred'
+cask 'kindle'
+cask 'grammarly'
+cask 'cheatsheet'
+cask 'brave-browser'
+cask 'firefox'
+
+# ------------------------------------------------------------------------------
+## Communication
+# ------------------------------------------------------------------------------
+cask 'telegram-desktop'
+cask 'signal'
+cask 'slack'
+cask 'discord'
+cask 'skype'
+
+# ------------------------------------------------------------------------------
+## System
+# ------------------------------------------------------------------------------
+cask 'nordvpn'
+cask 'bettertouchtool'
+cask 'boom-3d' # causes audio latency issues with truly wireless earbuds
+cask 'gpg-suite-no-mail'
+cask 'cleanmymac'
+cask 'android-file-transfer'
+cask 'onyx'
+cask 'lulu'
+cask 'namechanger'
+cask 'cryptomator' # arm mac not supported yet; requires macFUSE 4.x or else WebDAV update from Apple
+cask 'scroll-reverser'
+cask 'coconutbattery'
+cask 'hiddenbar'
+cask 'rectangle'
+cask 'moom' # premium app
+cask 'eqmac' # arm mac not supported yet
+cask 'skitch' # arm mac not supported yet
+cask 'osxfuse' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+## Cloud Storage
+# ------------------------------------------------------------------------------
+cask 'google-backup-and-sync'
+cask 'onedrive'
+cask 'megasync'
+cask 'dropbox'
+cask 'google-drive-file-stream' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Quicklook Plugins
+# ------------------------------------------------------------------------------
+cask 'quicklook-json'
+cask 'qlimagesize'
+cask 'webpquicklook'
+cask 'qlvideo'
+cask 'quicklook-csv'
+cask 'jupyter-notebook-ql'
+cask 'qlstephen'
+cask 'qlmarkdown'
+cask 'qlcolorcode'
+cask 'quicklookase'
+cask 'provisionql'
+
+# ------------------------------------------------------------------------------
+## Media Apps
+# ------------------------------------------------------------------------------
+cask 'mpv'
+
+# ------------------------------------------------------------------------------
+# CLI Tools
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Shell Utilities
+# ------------------------------------------------------------------------------
+brew 'syncthing'
+brew 'youtube-dl'
+brew 'tmux'
+brew 'ffmpeg' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Editors
+# ------------------------------------------------------------------------------
+cask 'macdown'
+brew 'vim', args: ["--with-lua"]
+
+# ------------------------------------------------------------------------------
+# Development Tools
+# ------------------------------------------------------------------------------
+cask 'iterm2'
+cask 'insomnia'
+cask 'lens'
+cask 'graphql-playground'
+cask 'firefox'
+cask 'atext'
+cask 'github'
+cask 'diffmerge'
+cask 'fastlane'
+cask 'gpg-suite'
+cask 'microsoft-remote-desktop-beta'
+cask 'ngrok'
+cask 'opera'
+cask 'postman'
+cask 'robo-3t'
+cask 'sequel-pro'
+cask 'psequel'
+cask 'dash' # premium subscription app; alt https://devdocs.io/
+
+# ------------------------------------------------------------------------------
+## Database
+# ------------------------------------------------------------------------------
+brew 'mysql'
+brew 'postgresql'
+brew 'mongodb-community' # requires tap 'mongodb/brew'
+brew 'elasticsearch'
+cask 'redis'
+cask 'mysqlworkbench' # --appdir="/Applications"
+
+# ------------------------------------------------------------------------------
+## Containers
+# ------------------------------------------------------------------------------
+brew 'docker-compose'
+cask 'docker'
+brew 'minikube' # arm mac not supported yet
+brew 'kubernetes-cli' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+## Virtualization
+# ------------------------------------------------------------------------------
+cask 'vmware-fusion'
+cask 'parallels'
+cask 'virtualbox' # arm mac not supported yet
+
+# ------------------------------------------------------------------------------
+# Media & Content Creation Tools
+# ------------------------------------------------------------------------------
+cask 'gimp'
+cask 'handbrake'
+cask 'audacity' # removed from casks
+
+# ------------------------------------------------------------------------------
+# CLI Tools
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+## Dev Utilities
+# ------------------------------------------------------------------------------
+brew 'heroku'
+brew 'awscli'
+brew 'mosh'
+
+# ------------------------------------------------------------------------------
+## SDKs
+# ------------------------------------------------------------------------------
+brew 'nvm'
+brew 'go'
+
+cask 'adoptopenjdk12'
+brew 'node@14'
+brew 'openjdk'
+
+brew 'jhipster'
+
+brew 'gatsby-cli'
+brew 'vips'
+
+# ------------------------------------------------------------------------------
+# Mac Apps
+# ------------------------------------------------------------------------------
+mas 'XCode', id: 497799835
+
+mas 'Dashlane for Safari', id: 1505779553
+mas 'Bitwarden', id: 1352778147
+mas 'Dropover', id: 1355679052
+mas 'Unsplash Wallpapers', id: 1284863847
+
+# ------------------------------------------------------------------------------
+# Office Suite
+# ------------------------------------------------------------------------------
+# cask 'microsoft-office'
