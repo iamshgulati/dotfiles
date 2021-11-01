@@ -1,7 +1,6 @@
 # ------------------------------------------------------------------------------
 # Taps
 # ------------------------------------------------------------------------------
-tap 'adoptopenjdk/openjdk'
 
 # ------------------------------------------------------------------------------
 # Mac Apps
@@ -20,7 +19,6 @@ tap 'adoptopenjdk/openjdk'
 # ------------------------------------------------------------------------------
 brew 'coreutils'
 brew 'findutils'
-brew 'gnupg'
 brew 'jq'
 brew 'q'
 brew 'ack'
@@ -47,14 +45,13 @@ cask 'sourcetree'
 cask 'jetbrains-toolbox'
 cask 'postman'
 cask 'gas-mask'
-cask 'android-platform-tools'
 cask 'vagrant'
 cask 'imageoptim'
 
 # ------------------------------------------------------------------------------
 ## Database
 # ------------------------------------------------------------------------------
-# brew 'mysql'
+# brew 'postgresql'
 
 # ------------------------------------------------------------------------------
 ## Containers
@@ -97,4 +94,4 @@ brew 'ssh-copy-id'
 brew 'node'
 brew 'yarn'
 brew 'python'
-cask 'adoptopenjdk'
+cask 'temurin'
