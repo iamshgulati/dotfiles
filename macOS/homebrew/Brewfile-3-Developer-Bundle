@@ -44,7 +44,6 @@ cask 'visual-studio-code'
 cask 'sourcetree'
 cask 'jetbrains-toolbox'
 cask 'postman'
-cask 'gas-mask'
 cask 'vagrant'
 cask 'imageoptim'
 
@@ -62,13 +61,10 @@ cask 'imageoptim'
 # ------------------------------------------------------------------------------
 ## Virtualization
 # ------------------------------------------------------------------------------
-# cask 'parallels'
 
 # ------------------------------------------------------------------------------
 # Media & Content Creation Tools
 # ------------------------------------------------------------------------------
-# cask 'gimp'
-# cask 'handbrake'
 
 # ------------------------------------------------------------------------------
 # CLI Tools
@@ -81,12 +77,8 @@ brew 'diff-so-fancy'
 brew 'reattach-to-user-namespace'
 brew 'git'
 brew 'git-lfs'
-brew 'gist'
-brew 'hub'
-brew 'w3m'
 brew 'imagemagick'
 brew 'openssl'
-brew 'ssh-copy-id'
 
 # ------------------------------------------------------------------------------
 ## SDKs

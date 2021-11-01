@@ -32,6 +32,7 @@ cask 'firefox'
 # ------------------------------------------------------------------------------
 ## Communication
 # ------------------------------------------------------------------------------
+cask 'zoom'
 cask 'telegram-desktop'
 cask 'signal'
 cask 'slack'
@@ -41,6 +42,10 @@ cask 'skype'
 # ------------------------------------------------------------------------------
 ## System
 # ------------------------------------------------------------------------------
+cask 'appcleaner'
+cask 'suspicious-package'
+cask 'cyberduck'
+cask 'transmission'
 cask 'nordvpn'
 cask 'bettertouchtool'
 cask 'boom-3d' # causes audio latency issues with truly wireless earbuds
@@ -87,6 +92,7 @@ cask 'provisionql'
 # ------------------------------------------------------------------------------
 ## Media Apps
 # ------------------------------------------------------------------------------
+cask 'vlc'
 cask 'mpv'
 
 # ------------------------------------------------------------------------------
@@ -111,12 +117,12 @@ brew 'vim', args: ["--with-lua"]
 # ------------------------------------------------------------------------------
 # Development Tools
 # ------------------------------------------------------------------------------
-cask 'android-platform-tools'
+cask 'gas-mask'
 cask 'iterm2'
 cask 'insomnia'
 cask 'lens'
 cask 'graphql-playground'
-cask 'firefox'
+cask 'android-platform-tools'
 cask 'atext'
 cask 'github'
 cask 'diffmerge'
@@ -152,8 +158,8 @@ brew 'kubernetes-cli' # arm mac not supported yet
 # ------------------------------------------------------------------------------
 ## Virtualization
 # ------------------------------------------------------------------------------
-cask 'vmware-fusion'
 cask 'parallels'
+cask 'vmware-fusion'
 cask 'virtualbox' # arm mac not supported yet
 
 # ------------------------------------------------------------------------------
@@ -170,6 +176,10 @@ cask 'audacity' # removed from casks
 # ------------------------------------------------------------------------------
 ## Dev Utilities
 # ------------------------------------------------------------------------------
+brew 'ssh-copy-id'
+brew 'gist'
+brew 'hub'
+brew 'w3m'
 brew 'heroku'
 brew 'awscli'
 brew 'mosh'
