@@ -44,8 +44,6 @@ cask 'visual-studio-code'
 cask 'sourcetree'
 cask 'jetbrains-toolbox'
 cask 'postman'
-cask 'vagrant'
-cask 'imageoptim'
 
 # ------------------------------------------------------------------------------
 ## Database

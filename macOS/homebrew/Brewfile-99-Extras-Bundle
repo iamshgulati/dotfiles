@@ -117,6 +117,8 @@ brew 'vim', args: ["--with-lua"]
 # ------------------------------------------------------------------------------
 # Development Tools
 # ------------------------------------------------------------------------------
+cask 'vagrant'
+cask 'imageoptim'
 cask 'gas-mask'
 cask 'iterm2'
 cask 'insomnia'
