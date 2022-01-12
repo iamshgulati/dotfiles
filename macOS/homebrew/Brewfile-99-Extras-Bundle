@@ -18,7 +18,7 @@ cask 'font-jetbrains-mono-nerd-font'
 # ------------------------------------------------------------------------------
 ## Productivity
 # ------------------------------------------------------------------------------
-cask 'microsoft-edge'
+cask 'firefox'
 cask 'authy'
 cask 'bitwarden'
 cask 'notion'
@@ -27,7 +27,6 @@ cask 'kindle'
 cask 'grammarly'
 cask 'cheatsheet'
 cask 'brave-browser'
-cask 'firefox'
 
 # ------------------------------------------------------------------------------
 ## Communication
