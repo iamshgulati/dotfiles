@@ -82,6 +82,6 @@ brew 'openssl'
 ## SDKs
 # ------------------------------------------------------------------------------
 cask 'temurin'
-brew 'node'
+brew 'nvm'
 brew 'yarn'
 brew 'python'
