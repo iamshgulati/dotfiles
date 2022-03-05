@@ -1,7 +1,7 @@
 {
   // ----------------- IDE SETTINGS ----------------- //
   "breadcrumbs.enabled": true,
-  
+
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
 
@@ -27,7 +27,11 @@
   "editor.tokenColorCustomizations": {},
   "editor.wordWrap": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
 
+  "emmet.excludeLanguages": [],
   "emmet.includeLanguages": {
     "html": "html",
     "javascript": "javascriptreact"
@@ -73,19 +77,20 @@
     "configurations": [],
     "compounds": []
   },
- 
+
+  // ----------------- TERMINAL SETTINGS ----------------- //
+  "terminal.external.windowsExec": "Terminal.app",
   // "terminal.integrated.fontFamily": "FiraCode NF", // looks good on terminal, cmd, ps, and vscode
   // "terminal.integrated.fontFamily": "JetBrainsMono NF", // looks good on terminal, cmd, and ps; but slightly thick on vscode
   // "terminal.integrated.fontFamily": "BlexMono NF", // looks good on terminal and vscode; but too thin on cmd and ps
   // "terminal.integrated.fontFamily": "CaskaydiaCove NF", // looks good on terminal, cmd, and ps; but too thick on vscode
   // "terminal.integrated.fontFamily": "OperatorMonoLig NF", // not listed on cmd and ps
   // "terminal.integrated.fontFamily": "Consolas, 'Courier New', monospace",
-  
+
   "terminal.integrated.fontSize": 11,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.lineHeight": 1.2,
-  
-  // ----------------- TERMINAL SETTINGS ----------------- //
+
   "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
   "terminal.integrated.profiles.windows": {
     "Ubuntu (WSL)": {
@@ -122,6 +127,10 @@
   "workbench.editor.tabSizing": "shrink",
 
   // ----------------- LANGUAGE SETTINGS ----------------- //
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -143,5 +152,5 @@
   "prettier.tabWidth": 2,
   "typescript.suggest.paths": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

@@ -1,12 +1,14 @@
 {
+  // ----------------- IDE SETTINGS ----------------- //
   "breadcrumbs.enabled": true,
 
+  "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
   "editor.fontFamily": "Operator Mono SSm Lig Book, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
+  "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
-  "editor.fontWeight": "300",
-  "editor.lineHeight": 18,
+  "editor.lineHeight": 22,
   "editor.acceptSuggestionOnEnter": "on",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.formatOnPaste": false,
@@ -16,7 +18,7 @@
   "editor.suggestSelection": "first",
   "editor.tabCompletion": "on",
   "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": null,
+  "editor.tokenColorCustomizations": {},
   "editor.wordWrap": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
@@ -64,18 +66,20 @@
     ".vscode": true
   },
 
+  "git.autofetch": true,
+
   "launch": {
     "configurations": [],
     "compounds": []
   },
 
+  // ----------------- TERMINAL SETTINGS ----------------- //
   "terminal.external.osxExec": "Terminal.app",
-  "terminal.integrated.fontFamily": "Operator Mono SSm Lig Book, Menlo, Monaco, 'Courier New', monospace",
+  // "terminal.integrated.fontFamily": "Operator Mono SSm Lig Book, Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 11,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.lineHeight": 1.2,
 
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
   "window.autoDetectColorScheme": true,
   "window.restoreFullscreen": true,
@@ -89,15 +93,20 @@
   "workbench.preferredLightColorTheme": "Default Light+",
   "workbench.startupEditor": "newUntitledFile",
 
-  // Extensions
-  "bracket-pair-colorizer-2.colors": ["#F72585", "#94b4a4", "#a3d8f4"],
-  "highlight-matching-tag.styles": {
-    "opening": {
-      "name": {
-        "surround": "yellow"
-      }
-    }
+  // ----------------- LANGUAGE SETTINGS ----------------- //
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "files.trimTrailingWhitespace": false
+  },
+
+  // ----------------- PLUGIN SETTINGS ----------------- //
   "npm-intellisense.importES6": true,
   "typescript.suggest.paths": false,
   "prettier.singleQuote": true,
@@ -109,27 +118,5 @@
   "prettier.jsxBracketSameLine": false,
   "prettier.bracketSpacing": true,
   "prettier.tabWidth": 2,
-  "macros": {
-    "collapseAndClose": [
-      "workbench.files.action.collapseExplorerFolders",
-      "workbench.action.closeAllEditors"
-    ]
-  },
-
-  // Languages - JavaScript
-  "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-
-  // Languages - JSON
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-
-  // Languages - Markdown
-  "[markdown]": {
-    "editor.quickSuggestions": true,
-    "files.trimTrailingWhitespace": false
-  }
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
