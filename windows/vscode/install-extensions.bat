@@ -14,8 +14,10 @@ call %CODE% --install-extension christian-kohler.path-intellisense
 call %CODE% --install-extension DavidAnson.vscode-markdownlint
 call %CODE% --install-extension dbaeumer.vscode-eslint
 call %CODE% --install-extension esbenp.prettier-vscode
+call %CODE% --install-extension ms-vscode-remote.remote-wsl
 call %CODE% --install-extension VisualStudioExptTeam.vscodeintellicode
 call %CODE% --install-extension vscode-icons-team.vscode-icons
+
 
 @REM call %CODE% --install-extension redhat.java
 @REM call %CODE% --install-extension redhat.vscode-yaml
