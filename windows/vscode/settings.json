@@ -79,7 +79,7 @@
   },
 
   // ----------------- TERMINAL SETTINGS ----------------- //
-  "terminal.external.windowsExec": "Terminal.app",
+  "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
   // "terminal.integrated.fontFamily": "FiraCode NF", // looks good on terminal, cmd, ps, and vscode
   // "terminal.integrated.fontFamily": "JetBrainsMono NF", // looks good on terminal, cmd, and ps; but slightly thick on vscode
   // "terminal.integrated.fontFamily": "BlexMono NF", // looks good on terminal and vscode; but too thin on cmd and ps
