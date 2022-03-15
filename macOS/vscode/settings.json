@@ -4,7 +4,7 @@
 
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
-  "editor.fontFamily": "Operator Mono SSm Lig Book, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Liga SFMono Nerd Font, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 12,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
@@ -75,7 +75,7 @@
 
   // ----------------- TERMINAL SETTINGS ----------------- //
   "terminal.external.osxExec": "Terminal.app",
-  // "terminal.integrated.fontFamily": "Operator Mono SSm Lig Book, Menlo, Monaco, 'Courier New', monospace",
+  // "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 11,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.lineHeight": 1.2,
