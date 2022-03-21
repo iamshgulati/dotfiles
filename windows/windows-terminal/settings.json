@@ -42,7 +42,7 @@
             {
                 "face": "JetBrainsMono Nerd Font Mono",
                 "size": 9,
-                "weight": "normal"
+                "weight": "semi-light"
             },
             "suppressApplicationTitle": true,
             "useAcrylic": true
