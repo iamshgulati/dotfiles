@@ -14,6 +14,7 @@ $CODE --install-extension christian-kohler.path-intellisense
 $CODE --install-extension DavidAnson.vscode-markdownlint
 $CODE --install-extension dbaeumer.vscode-eslint
 $CODE --install-extension esbenp.prettier-vscode
+$CODE --install-extension redhat.vscode-xml
 $CODE --install-extension VisualStudioExptTeam.vscodeintellicode
 $CODE --install-extension vscode-icons-team.vscode-icons
 

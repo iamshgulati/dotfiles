@@ -105,10 +105,12 @@
     "editor.quickSuggestions": true,
     "files.trimTrailingWhitespace": false
   },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
 
   // ----------------- PLUGIN SETTINGS ----------------- //
   "npm-intellisense.importES6": true,
-  "typescript.suggest.paths": false,
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
   "prettier.trailingComma": "none",
@@ -118,5 +120,8 @@
   "prettier.jsxBracketSameLine": false,
   "prettier.bracketSpacing": true,
   "prettier.tabWidth": 2,
+  "redhat.telemetry.enabled": false,
+  "typescript.suggest.paths": false,
+  "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
