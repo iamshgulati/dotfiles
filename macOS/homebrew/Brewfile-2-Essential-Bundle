@@ -13,7 +13,6 @@ tap 'romkatv/powerlevel10k'
 # Essential Apps
 # ------------------------------------------------------------------------------
 cask 'sublime-text'
-cask 'bartender'
 
 # ------------------------------------------------------------------------------
 # Mac Apps
@@ -32,6 +31,7 @@ cask 'microsoft-edge'
 ## System
 # ------------------------------------------------------------------------------
 cask 'bartender'
+cask 'monitorcontrol'
 cask 'logitech-options'
 cask 'the-unarchiver'
 
