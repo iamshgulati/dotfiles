@@ -40,10 +40,11 @@
             "colorScheme": "Tango Dark",
             "font": 
             {
-                "face": "JetBrainsMono Nerd Font Mono",
+                "face": "CaskaydiaCove Nerd Font Mono",
                 "size": 9,
-                "weight": "normal"
+                "weight": "semi-light"
             },
+            "padding": "8",
             "suppressApplicationTitle": true,
             "useAcrylic": true
         },

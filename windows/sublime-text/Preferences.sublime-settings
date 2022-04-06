@@ -1,9 +1,19 @@
 // Settings in here override those in "Default/Preferences.sublime-settings",
 // and are overridden in turn by syntax-specific settings.
 {
-	"font_face": "JetBrains Mono Light",
+	// "font_face": "JetBrains Mono Light",
+	// "font_size": 10,
+	"font_face": "Cascadia Code Semilight",
 	"font_size": 10,
+	// "font_face": "Caskaydia Cove Regular Nerd Font",
+	// "font_size": 10,
 	"font_options": ["liga", "clig", "calt", "zero", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09"],
-	"line_padding_bottom": 2.75,
-	"line_padding_top": 2.75
+	"line_padding_top": 3,
+	"line_padding_bottom": 3,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "auto",
+	"color_scheme": "Mariana.sublime-color-scheme",
 }
