@@ -3,13 +3,15 @@
 {
 	// "font_face": "JetBrains Mono Light",
 	// "font_size": 10,
-	"font_face": "Cascadia Code Semilight",
-	"font_size": 10,
 	// "font_face": "Caskaydia Cove Regular Nerd Font",
 	// "font_size": 10,
+
+	"font_face": "Cascadia Code PL SemiLight",
+	"font_size": 11,
+
 	"font_options": ["liga", "clig", "calt", "zero", "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "ss09"],
-	"line_padding_top": 3,
-	"line_padding_bottom": 3,
+	"line_padding_top": 4,
+	"line_padding_bottom": 4,
 	"ignored_packages":
 	[
 		"Vintage",
