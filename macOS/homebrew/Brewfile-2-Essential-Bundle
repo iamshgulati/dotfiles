@@ -12,7 +12,7 @@ tap 'romkatv/powerlevel10k'
 # ------------------------------------------------------------------------------
 # Essential Apps
 # ------------------------------------------------------------------------------
-cask 'visual-studio-code'
+cask 'sublime-text'
 cask 'bartender'
 
 # ------------------------------------------------------------------------------
@@ -27,11 +27,11 @@ cask 'microsoft-edge'
 # ------------------------------------------------------------------------------
 ## Communication
 # ------------------------------------------------------------------------------
+cask 'zoom'
 
 # ------------------------------------------------------------------------------
 ## System
 # ------------------------------------------------------------------------------
-cask 'bartender'
 cask 'logitech-options'
 cask 'the-unarchiver'
 
@@ -54,7 +54,6 @@ brew 'zsh-completions'
 brew 'zsh-autosuggestions'
 brew 'zsh-navigation-tools'
 brew 'romkatv/powerlevel10k/powerlevel10k'
-brew 'syncthing'
 
 # ------------------------------------------------------------------------------
 ## System Utilities
@@ -64,3 +63,5 @@ brew 'tree'
 brew 'trash'
 brew 'mackup'
 brew 'folderify'
+brew 'syncthing'
+brew 'hblock'
