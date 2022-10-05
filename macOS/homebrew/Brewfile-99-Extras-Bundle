@@ -18,6 +18,7 @@ cask 'font-jetbrains-mono-nerd-font'
 # ------------------------------------------------------------------------------
 ## Productivity
 # ------------------------------------------------------------------------------
+cask 'microsoft-edge'
 cask 'firefox'
 cask 'authy'
 cask 'bitwarden'
@@ -41,7 +42,6 @@ cask 'skype'
 # ------------------------------------------------------------------------------
 ## System
 # ------------------------------------------------------------------------------
-cask 'logitech-options'
 cask 'appcleaner'
 cask 'suspicious-package'
 cask 'cyberduck'
@@ -64,6 +64,7 @@ cask 'moom' # premium app
 cask 'eqmac' # arm mac not supported yet
 cask 'skitch' # arm mac not supported yet
 cask 'osxfuse' # arm mac not supported yet
+cask 'logitech-options' # still requires rosetta 2
 
 # ------------------------------------------------------------------------------
 ## Cloud Storage
@@ -120,6 +121,7 @@ brew 'ffmpeg' # arm mac not supported yet
 # ------------------------------------------------------------------------------
 brew 'htop'
 brew 'nmap'
+brew 'mtr'
 
 # ------------------------------------------------------------------------------
 ## System Utilities
@@ -173,9 +175,8 @@ cask 'mysqlworkbench' # --appdir="/Applications"
 ## Containers
 # ------------------------------------------------------------------------------
 brew 'docker-compose'
-cask 'docker'
-brew 'minikube' # arm mac not supported yet
-brew 'kubernetes-cli' # arm mac not supported yet
+brew 'minikube'
+brew 'kubernetes-cli'
 
 # ------------------------------------------------------------------------------
 ## Virtualization

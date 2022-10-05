@@ -5,10 +5,20 @@
   "editor.accessibilitySupport": "off",
   "editor.codeLens": false,
 
-  "editor.fontFamily": "JetBrains Mono Light, Consolas, 'Courier New', monospace",
-  "editor.fontSize": 13,
-  "editor.fontWeight": "normal",
-  "editor.letterSpacing": 0.20,
+  // "editor.fontFamily": "JetBrains Mono Light, Consolas, 'Courier New', monospace",
+  // "editor.fontSize": 13,
+  // "editor.fontWeight": "normal",
+  // "editor.letterSpacing": 0.20,
+
+  // "editor.fontFamily": "CaskaydiaCove Nerd Font Mono, Consolas, 'Courier New', monospace",
+  // "editor.fontSize": 14,
+  // "editor.fontWeight": "normal",
+  // "editor.letterSpacing": 0.50,
+
+  "editor.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "350",
+  // "editor.letterSpacing": 0.50,
 
   "editor.fontLigatures": "'liga', 'clig', 'calt', 'zero', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09'",
   "editor.lineHeight": 24,
@@ -77,7 +87,7 @@
 
   // ----------------- TERMINAL SETTINGS ----------------- //
   "terminal.external.windowsExec": "C:\\WINDOWS\\System32\\wsl.exe",
-  // "terminal.integrated.fontFamily": "JetBrains Mono Light, Consolas, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Cascadia Code PL, Consolas, 'Courier New', monospace",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.fontWeight": "400",
   "terminal.integrated.letterSpacing": 0,
@@ -127,11 +137,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[markdown]": {
-    "editor.quickSuggestions": {
-      "comments": "on",
-      "strings": "on",
-      "other": "on"
-    },
+    "editor.quickSuggestions": true,
     "files.trimTrailingWhitespace": false
   },
   "[xml]": {
@@ -146,7 +152,7 @@
   "prettier.arrowParens": "avoid",
   "prettier.proseWrap": "preserve",
   "prettier.quoteProps": "as-needed",
-  "prettier.bracketSameLine": false,
+  "prettier.jsxBracketSameLine": false,
   "prettier.bracketSpacing": true,
   "prettier.tabWidth": 2,
   "redhat.telemetry.enabled": false,
@@ -154,9 +160,6 @@
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "settingsSync.ignoredExtensions": [
-  ],
-  "security.workspace.trust.untrustedFiles": "open",
-  "settingsSync.ignoredSettings": [
   
   ]
 }
