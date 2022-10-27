@@ -66,5 +66,5 @@ brew 'imagemagick'
 # ------------------------------------------------------------------------------
 brew 'jenv'
 brew 'nvm'
-brew 'yarn'
+brew 'pnpm'
 brew 'pyenv'
