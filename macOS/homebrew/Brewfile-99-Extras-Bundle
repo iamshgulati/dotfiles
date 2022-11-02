@@ -27,7 +27,7 @@ cask 'alfred'
 cask 'kindle'
 cask 'grammarly'
 cask 'cheatsheet'
-cask 'brave-browser'
+cask 'google-chrome'
 
 # ------------------------------------------------------------------------------
 ## Communication
