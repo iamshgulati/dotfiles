@@ -42,10 +42,10 @@ cask 'skype'
 # ------------------------------------------------------------------------------
 ## System
 # ------------------------------------------------------------------------------
+cask 'iterm2'
 cask 'appcleaner'
 cask 'suspicious-package'
 cask 'cyberduck'
-cask 'transmission'
 cask 'nordvpn'
 cask 'bettertouchtool'
 cask 'boom-3d' # causes audio latency issues with truly wireless earbuds
