@@ -22,7 +22,6 @@ cask 'bartender'
 # ------------------------------------------------------------------------------
 ## Productivity
 # ------------------------------------------------------------------------------
-cask 'brave-browser'
 # cask 'adobe-acrobat-reader'
 
 # ------------------------------------------------------------------------------
@@ -63,4 +62,4 @@ brew 'tree'
 brew 'trash'
 brew 'mackup'
 brew 'folderify'
-brew 'syncthing'
+cask 'syncthing'
