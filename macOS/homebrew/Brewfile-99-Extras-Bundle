@@ -18,6 +18,7 @@ cask 'font-jetbrains-mono-nerd-font'
 # ------------------------------------------------------------------------------
 ## Productivity
 # ------------------------------------------------------------------------------
+cask 'obsidian'
 cask 'firefox'
 cask 'brave-browser'
 cask 'authy'
