@@ -19,7 +19,6 @@ cask 'font-jetbrains-mono-nerd-font'
 ## Productivity
 # ------------------------------------------------------------------------------
 cask 'brave-browser'
-cask 'microsoft-edge'
 cask 'firefox'
 cask 'authy'
 cask 'bitwarden'
