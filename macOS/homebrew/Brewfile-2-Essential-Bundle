@@ -23,8 +23,8 @@ cask 'bartender'
 ## Productivity
 # ------------------------------------------------------------------------------
 cask 'microsoft-edge'
+cask 'adobe-acrobat-reader'
 # cask 'obsidian'
-# cask 'adobe-acrobat-reader'
 
 # ------------------------------------------------------------------------------
 ## Communication
