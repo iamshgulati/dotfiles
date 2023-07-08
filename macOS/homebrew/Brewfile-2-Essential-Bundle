@@ -1,20 +1,8 @@
 # ------------------------------------------------------------------------------
-# Taps
-# ------------------------------------------------------------------------------
-tap 'homebrew/core'
-tap 'homebrew/bundle'
-tap 'homebrew/cask'
-tap 'homebrew/cask-drivers'
-tap 'homebrew/cask-versions'
-tap 'homebrew/services'
-tap 'romkatv/powerlevel10k'
-
-# ------------------------------------------------------------------------------
 # Essential Apps
 # ------------------------------------------------------------------------------
 cask 'hiddenbar'
 cask 'visual-studio-code'
-# cask 'bartender'
 
 # ------------------------------------------------------------------------------
 # Mac Apps
@@ -35,7 +23,6 @@ cask 'zoom'
 ## System
 # ------------------------------------------------------------------------------
 cask 'adguard'
-# cask 'the-unarchiver'
 
 # ------------------------------------------------------------------------------
 ## Media Apps
@@ -45,21 +32,12 @@ cask 'adguard'
 # CLI Tools
 # ------------------------------------------------------------------------------
 brew 'git'
-brew 'transmission-cli'
 
 # ------------------------------------------------------------------------------
 ## Shell Utilities
 # ------------------------------------------------------------------------------
-brew 'zsh'
-brew 'autojump'
-brew 'zsh-syntax-highlighting'
-brew 'zsh-completions'
-brew 'zsh-autosuggestions'
-brew 'zsh-navigation-tools'
-brew 'romkatv/powerlevel10k/powerlevel10k'
 
 # ------------------------------------------------------------------------------
 ## System Utilities
 # ------------------------------------------------------------------------------
 brew 'mackup'
-brew 'folderify'
